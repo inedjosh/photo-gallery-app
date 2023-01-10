@@ -18,9 +18,6 @@ export const configs = {
 
   OTP_TIME_EXPIRY_MINUTES: process.env.OTP_TIME_EXPIRY_MINUTES || '',
 
-  REDIS_HOST: process.env.REDIS_HOST || '',
-  REDIS_PORT: process.env.REDIS_PORT || '',
-
   MAIL_HOST: process.env.MAIL_HOST || '',
   MAIL_PORT: process.env.MAIL_PORT || '',
   MAIL_USERNAME: process.env.MAIL_USERNAME || '',
